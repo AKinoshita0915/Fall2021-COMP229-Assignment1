@@ -1,0 +1,26 @@
+{
+  "name": "fall2021-comp229-assignment1",
+  "version": "0.0.0",
+  "description": "Demo for Week3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aiju Kinoshita",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKinoshita0915/Fall2021-COMP229-Assignment1.git"
+  },
+  "keywords": [
+    "Assignment1",
+    "COMP229"
+  ],
+  "bugs": {
+    "url": "https://github.com/AKinoshita0915/Fall2021-COMP229-Assignment1/issues"
+  },
+  "engines": {
+    "node": "^12.00.0",
+    "npm": "^6.0.0"
+  }
+}
