@@ -2,7 +2,7 @@
   "name": "fall2021-comp229-assignment1",
   "version": "0.0.1",
   "description": "Fall 2021 - COMP 229 - Assignment 1",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "start": "node ./server.js"
   },

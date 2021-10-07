@@ -4,13 +4,18 @@
   
 
   <!-- Main Content -->
-  <main class="container">
-    <div class="jumbotron">
+  <main class="jumbotron jumbotron-fluid">
+    <div class="container">
       <h1 class="display-4">Welcome to the <%= title %> page</h1>
-      
+      <p class="lead"><% if (title == "Home") {
+        %> Please select the contents from above navigator <%
+      } %> </p>
+    </div>
+    <div>
+      <img src="../public/Assets/images/01.png" width="50%" height="50%">  
     </div>
   </main>
   
-<%- include partials/bottom_nav.ejs %>  
+<%- include partials/copy_nav.ejs %>  
 
 <%- include partials/footer.ejs %>
